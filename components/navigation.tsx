@@ -62,7 +62,7 @@ export function Navigation({ activePage, setActivePage }: NavigationProps) {
             aria-label="OOLKA Home"
           >
             <img
-              src="/logo/oolka-logo-new.png"
+              src="/OOLKA/logo/oolka-logo-new.png"
               alt="OOLKA"
               className="h-full w-auto invert"
             />
