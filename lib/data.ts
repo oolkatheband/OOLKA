@@ -15,7 +15,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/7bVbQQXW2VF9MPGawVbSck?si=a732742fe0664be2',
-    coverImage: '/covers/Daknam.png',
+    coverImage: '/OOLKA/cover/Daknam.png',
     spotifyId: "7bVbQQXW2VF9MPGawVbSck",
   },
   {
@@ -34,7 +34,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/02jzmdKJhxFL85nHrGsXGa?autoplay_ok=1',
-    coverImage: '/covers/Chuti_Chay.png',
+    coverImage: '/OOLKA/cover/Chuti_Chay.png',
     spotifyId: '02jzmdKJhxFL85nHrGsXGa',
   },
   {
@@ -53,7 +53,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/2Zeo6jgapunY2AGjIWCRfC?autoplay_ok=1',
-    coverImage: '/covers/Epistosix.png',
+    coverImage: '/OOLKA/cover/Epistosix.png',
     spotifyId: '2Zeo6jgapunY2AGjIWCRfC',
   },
   {
@@ -72,7 +72,7 @@ export const RELEASES = [
     songwriter: 'Raihan Rahee',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/2mon00XgUi4wyTKcReeTSH?autoplay_ok=1',
-    coverImage: '/covers/Astray.png',
+    coverImage: '/OOLKA/cover/Astray.png',
     spotifyId: '2mon00XgUi4wyTKcReeTSH',
   },
   {
@@ -91,7 +91,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/5mIfootq1z2tcSpXuvb0fi?autoplay_ok=1',
-    coverImage: '/covers/Qooxx.png',
+    coverImage: '/OOLKA/cover/Qooxx.png',
     spotifyId: '5mIfootq1z2tcSpXuvb0fi',
   },
   {
@@ -110,7 +110,7 @@ export const RELEASES = [
     songwriter: 'Tashfique Kaif, Ibn Khalid Khan',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Shedin_Dupore.png',
+    coverImage: '/OOLKA/cover/Shedin_Dupore.png',
     spotifyId: null,
   },
   {
@@ -129,7 +129,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/2zl8CckRz9rHsXEfVUPV3g?autoplay_ok=1',
-    coverImage: '/covers/Kitpoka.png',
+    coverImage: '/OOLKA/cover/Kitpoka.png',
     spotifyId: '2zl8CckRz9rHsXEfVUPV3g',
   },
   {
@@ -148,7 +148,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan, Rafsan Jani',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/4FVdm77B5d9Nwnd1CcxRZh?autoplay_ok=1',
-    coverImage: '/covers/Tomar_Shohor.png',
+    coverImage: '/OOLKA/cover/Tomar_Shohor.png',
     spotifyId: '4FVdm77B5d9Nwnd1CcxRZh',
   },
   {
@@ -167,7 +167,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan, Rafsan Jani',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/08bIogREkOre5BazAsQatB?autoplay_ok=1',
-    coverImage: '/covers/Shunnota.png',
+    coverImage: '/OOLKA/cover/Shunnota.png',
     spotifyId: '08bIogREkOre5BazAsQatB',
   },
   {
@@ -186,7 +186,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/3PtY7ylBXJGmlAy52zF8hv?autoplay_ok=1',
-    coverImage: '/covers/Absence.png',
+    coverImage: '/OOLKA/cover/Absence.png',
     spotifyId: '3PtY7ylBXJGmlAy52zF8hv',
   },
   {
@@ -205,7 +205,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/0xOoPPyAnuFQurEBEAy6nH?autoplay_ok=1',
-    coverImage: '/covers/Pandagirl.png',
+    coverImage: '/OOLKA/cover/Pandagirl.png',
     spotifyId: '0xOoPPyAnuFQurEBEAy6nH',
   },
   {
@@ -224,7 +224,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan',
     platform: 'Spotify',
     link: 'https://open.spotify.com/track/38FZwB4tlxngwE6XG1TCQR?autoplay_ok=1',
-    coverImage: '/covers/Bossin.png',
+    coverImage: '/OOLKA/cover/Bossin.png',
     spotifyId: '38FZwB4tlxngwE6XG1TCQR',
   },
   {
@@ -243,7 +243,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan, Afia Ibnat Snigdha',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Biborno.png',
+    coverImage: '/OOLKA/cover/Biborno.png',
     spotifyId: null,
   },
   {
@@ -262,7 +262,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan, Afia Ibnat Snigdha',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Bottlebondi.png',
+    coverImage: '/OOLKA/cover/Bottlebondi.png',
     spotifyId: null,
   },
   {
@@ -281,7 +281,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan, Afia Ibnat Snigdha',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Megher_Dana.png',
+    coverImage: '/OOLKA/cover/Megher_Dana.png',
     spotifyId: null,
   },
   {
@@ -300,7 +300,7 @@ export const RELEASES = [
     songwriter: 'NIL',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Othoi.png',
+    coverImage: '/OOLKA/cover/Othoi.png',
     spotifyId: null,
   },
   {
@@ -319,7 +319,7 @@ export const RELEASES = [
     songwriter: 'Afia Ibnat Snigdha',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Jiboner_Porajoy.png',
+    coverImage: '/OOLKA/cover/Jiboner_Porajoy.png',
     spotifyId: null,
   },
   {
@@ -338,7 +338,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Golokdhadhar_Majhe.png',
+    coverImage: '/OOLKA/cover/Golokdhadhar_Majhe.png',
     spotifyId: null,
   },
   {
@@ -357,7 +357,7 @@ export const RELEASES = [
     songwriter: 'Ibn Khalid Khan, Afia Ibnat Snigdha',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Shedin_Dupore_Reprise.png',
+    coverImage: '/OOLKA/cover/Shedin_Dupore_Reprise.png',
     spotifyId: null,
   },
   {
@@ -376,7 +376,7 @@ export const RELEASES = [
     songwriter: 'Sohan Ali',
     platform: 'Upcoming Release',
     link: '#',
-    coverImage: '/covers/Onno_Groher_Chand.png',
+    coverImage: '/OOLKA/cover/Onno_Groher_Chand.png',
     spotifyId: null,
   },
 ];
@@ -395,7 +395,7 @@ export const ARTISTS = [
     name: 'IBN KHALID KHAN',
     role: 'Heavy Synthesis, Guitars, Vocals, Production',
     bio: 'The architectural backbone of OOLKA. Ibn Khalid Khan wields blistering riffs, metallic dynamics, and dense atmospheric weight. His multi-instrumental mastery and raw production ethos define the project.',
-    image: '/collaborators/ibn-khalid-khan.png',
+    image: '/OOLKA/collaborators/ibn-khalid-khan.png',
     tracks: ['KITPOKA', 'ABSENCE', 'ASTRAY', 'CHUTI CHAY', 'DAKNAM', 'PANDAGIRL'],
   },
   {
@@ -403,7 +403,7 @@ export const ARTISTS = [
     name: 'RAFSAN JANI',
     role: 'Percussion, Sound Design',
     bio: "Rhythmic architect and sonic innovator. Rafsan Jani layers percussive complexity with meticulous sound design, creating the timbral foundation that anchors OOLKA's brutalist aesthetic.",
-    image: '/collaborators/rafsan-jani.png',
+    image: '/OOLKA/collaborators/rafsan-jani.png',
     tracks: ['CHUTI CHAY', 'DAKNAM', 'KITPOKA', 'ASTRAY', 'QOOXX'],
   },
   {
@@ -411,7 +411,7 @@ export const ARTISTS = [
     name: 'MAHRUS HABIB',
     role: 'Rapper, MC',
     bio: 'Bringing sharp rhythmic cadences and aggressive verbal delivery. Mahrus Habib injects urban edge and fast-paced verse execution into experimental genre-bending tracks.',
-    image: '/collaborators/mahrus-habib.png',
+    image: '/OOLKA/collaborators/mahrus-habib.png',
     tracks: ['BOSSIN'],
   },
   {
@@ -419,7 +419,7 @@ export const ARTISTS = [
     name: 'TASHFIQUE KAIF',
     role: 'Arranger, Sound Designer',
     bio: 'Architect of sonic spaces. Tashfique Kaif meticulously structures instrumental layers, ensuring the transition between aggressive rock elements and moody blues retains maximum impact.',
-    image: '/collaborators/tashfique-kaif.png',
+    image: '/OOLKA/collaborators/tashfique-kaif.png',
     tracks: ['SHEDIN DUPORE'],
   },
   {
@@ -427,7 +427,7 @@ export const ARTISTS = [
     "name": "SHAHRIAR SAKIN",
     "role": "Vocalist",
     "bio": "Dynamic vocal performer delivering powerful grit and extensive range. Sakin handles high-energy vocal tracks that require an uncompromising rock and metal delivery.",
-    "image": "/collaborators/shahriar-sakin.png",
+    "image": "/OOLKA/collaborators/shahriar-sakin.png",
     "tracks": ["ASTRAY"]
   },
   {
@@ -435,7 +435,7 @@ export const ARTISTS = [
     "name": "DANIEL HASAN",
     "role": "Visuals, Cinematography",
     "bio": "The eye behind the monochromatic identity. Daniel Hasan translates the heavy, distorted, and minimalist audio landscapes of OOLKA into stark, high-contrast visual imagery.",
-    "image": "/collaborators/daniel-hasan.png",
+    "image": "/OOLKA/collaborators/daniel-hasan.png",
     "tracks": ["VISUAL DIRECTION / MUSIC VIDEOS"]
   },
   {
@@ -443,7 +443,7 @@ export const ARTISTS = [
     name: 'AFIA IBNAT SNIGDHA',
     role: 'Vocals, Lyrics',
     bio: 'Vocal presence and lyrical force. Afia Ibnat Snigdha brings ethereal yet commanding arrangements to select OOLKA Productions releases, grounding heavy instrumentation in intense human emotion.',
-    image: '/collaborators/afia-snigdha.png',
+    image: '/OOLKA/collaborators/afia-snigdha.png',
     tracks: ['SHEDIN DUPORE'],
   },
 ];
