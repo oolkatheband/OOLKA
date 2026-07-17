@@ -48,7 +48,7 @@ export function Footer({ setActivePage }: FooterProps) {
             {/* Inverted Logo */}
             <div className="h-32 md:h-40 p-3 inline-flex items-center self-start">
               <img
-                src="/logo/oolka-logo-new.png"
+                src="/OOLKA/logo/oolka-logo-new.png"
                 alt="OOLKA Productions"
                 className="h-full w-auto invert"
               />
