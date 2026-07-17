@@ -1,21 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Forces static HTML export required for GitHub Pages
-  basePath: '/OOLKA', // Configures asset paths to match your GitHub repository name
+  basePath: '/OOLKA',
   
   typescript: {
-    ignoreBuildErrors: true, // Prevents custom types from stalling out build runners
+    ignoreBuildErrors: true,
   },
   
   images: {
-    unoptimized: true, // Prevents dynamic server image generation overhead on GitHub Pages
+    unoptimized: true,
   },
 }
 
-// Strictly inject headers ONLY during local development.
-// This hides the method entirely from the Next.js production build runner,
-// successfully generating the missing './out' directory on GitHub Actions.
-if (process.env.NODE_ENV === 'development') {
+// When building on GitHub Actions via your new package.json script flag, force static output mode
+if (process.env.NEXT_PUBLIC_EXPORT_MODE === 'true') {
+  nextConfig.output = 'export';
+} else {
+  // Keeps full cross-origin security headers completely intact for FFMPEG local performance testing
   nextConfig.headers = async () => {
     return [
       {
@@ -35,4 +35,4 @@ if (process.env.NODE_ENV === 'development') {
   }
 }
 
-export default nextConfig
+export default nextConfig;
