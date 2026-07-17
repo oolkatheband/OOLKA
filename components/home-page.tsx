@@ -65,7 +65,7 @@ export function HomePage({ setActivePage }: HomePageProps) {
           className="mb-6"
         >
           <img
-            src="/logo/oolka-logo-new.png"
+            src="/OOLKA/logo/oolka-logo-new.png"
             alt="OOLKA Productions"
             className="h-52 md:h-64 w-auto invert"
           />
