@@ -3,6 +3,7 @@ name: Deploy Next.js Site to Pages
 on:
   push:
     branches: ["main"] # Triggers every time you push to your main branch
+  workflow_dispatch: # Allows you to manually trigger the build from the Actions tab
 
 permissions:
   contents: read
@@ -34,6 +35,11 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        with:
+          static_site_generator: next
+
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
@@ -43,7 +49,7 @@ jobs:
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out # Next.js outputs static export structures here
 
       - name: Deploy to GitHub Pages
         id: deployment
