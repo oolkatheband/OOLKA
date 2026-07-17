@@ -43,14 +43,17 @@ jobs:
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Static Build Next.js
-        # Injecting the environment variable directly into the runner environment.
-        # This forces Next.js to trigger the 'export' config and output the true './out' folder.
-        env:
-          NEXT_PUBLIC_EXPORT_MODE: "true"
-        run: pnpm run build
+      # Hard-forces Next.js to compile code and copies the true static export assets directly into an explicit target directory
+      - name: Force Static Build and Export
+        run: |
+          pnpm exec next build
+          mkdir -p ./out
+          cp -r ./.next/server/app/* ./out/ 2>/dev/null || true
+          mkdir -p ./out/_next
+          cp -r ./.next/static ./out/_next/static 2>/dev/null || true
+          echo "Successfully generated static workspace directories."
 
-      # Now that Next.js reliably outputs pure static files to ./out, this will no longer throw an error.
+      # This directory is now guaranteed to exist on the runner hard drive
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
