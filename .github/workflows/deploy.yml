@@ -37,23 +37,18 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
+        # REMOVED static_site_generator: next here to prevent GitHub from breaking asset configurations
 
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
-      # Hard-forces Next.js to compile code and copies the true static export assets directly into an explicit target directory
-      - name: Force Static Build and Export
+      - name: Force Static Build
+        env:
+          NEXT_PUBLIC_EXPORT_MODE: "true"
         run: |
-          pnpm exec next build
-          mkdir -p ./out
-          cp -r ./.next/server/app/* ./out/ 2>/dev/null || true
-          mkdir -p ./out/_next
-          cp -r ./.next/static ./out/_next/static 2>/dev/null || true
-          echo "Successfully generated static workspace directories."
+          pnpm run build
+          touch ./out/.nojekyll
 
-      # This directory is now guaranteed to exist on the runner hard drive
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
