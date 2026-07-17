@@ -105,7 +105,7 @@ function ReleaseModal({
           {/* Cover art */}
           <div className="w-40 md:w-52 flex-shrink-0 bg-black relative overflow-hidden">
             <img
-              src={track.coverImage || "/covers/binary-serenity.png"}
+              src={track.coverImage || "/OOLKA/covers/binary-serenity.png"}
               alt={`${track.title} cover`}
               className="w-full h-full object-cover"
             />
@@ -241,7 +241,7 @@ function ReleaseCard({
       {/* Cover image */}
       <div className="aspect-square relative overflow-hidden bg-black">
         <img
-          src={track.coverImage || "/covers/binary-serenity.png"}
+          src={track.coverImage || "/OOLKA/covers/binary-serenity.png"}
           alt={`${track.title} cover art`}
           className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${isUpcoming ? "opacity-30" : "opacity-80 group-hover:opacity-100"
             }`}
