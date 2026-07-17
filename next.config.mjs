@@ -1,21 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: '/OOLKA',
+  assetPrefix: '/OOLKA/', // Fixes asset linking templates across static routers
   
   typescript: {
     ignoreBuildErrors: true,
   },
   
   images: {
-    unoptimized: true,
+    unoptimized: true, // Tells Next.js to treat assets as standard raw images
   },
 }
 
-// When building on GitHub Actions via your new package.json script flag, force static output mode
 if (process.env.NEXT_PUBLIC_EXPORT_MODE === 'true') {
   nextConfig.output = 'export';
 } else {
-  // Keeps full cross-origin security headers completely intact for FFMPEG local performance testing
   nextConfig.headers = async () => {
     return [
       {
